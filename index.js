@@ -144,7 +144,7 @@ const projectsRender = () => {
     //divRight1.append(p4);
     div1.append(divLeft1);
     //div1.append(divRight1);
-    p1.innerHTML = " Weather App  ( <a href =\"https://fsdi-mini-project-shivam-verma.stackblitz.io\" target = \"_blank\" style=\"text-decoration:none\"> Click to open App </a> )";
+    p1.innerHTML = " Weather App  ( <a href =\"https://vermashivam.github.io/weather-app \" target = \"_blank\" style=\"text-decoration:none\"> Click to open App </a> )";
     p2.innerHTML = " It calls  weather api to get current weather and forcasts for next two days of the city seached by the user. IIt sends GET requaest and receive a JSON file which is then rendered on single page web application.";
     p3.innerHTML = " Technologies : HTML , CSS , JavaScript ";
     //p4.innerHTML = "";
