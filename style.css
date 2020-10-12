@@ -1,0 +1,102 @@
+a {
+  text-decoration: none;
+  /* color: white; */
+  color : inherit
+}
+
+body {
+  font-family: Lato;
+  margin : 0px;
+  width: 100vw ;
+  background-size : cover;
+  background-image: url("https://ik.imagekit.io/shivam/sky_blue_pHm-nu-3H01.jpg");
+  color: white;
+  background-color: #01579B;
+  background-attachment: fixed;
+}
+/* @media only screen and (max-width: 767px) {
+  body {
+    The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections 
+    background-image: url(images/background-photo-mobile-devices.jpg);
+  }
+} */
+
+button {
+  background: rgba(0,0,0, 0.2);
+  border-radius: 15%;
+  padding : 1.5%;
+  margin : 1%;
+  width : 85px;
+  color: white;
+  transition:  color 0.5s, background-color 0.5s ease-in-out;
+}
+
+button:hover {
+  color : #01579B;
+  background-color: white;
+}
+
+#buttonDiv{
+  text-align: center;
+}
+
+.profileImage {
+  border-radius: 50%;
+  width : 25%;
+}
+
+
+.iconImage {
+  border-radius: 50%;
+  width : 5%;
+  padding: 1%;
+  vertical-align :middle;
+}
+
+div {
+  padding : 1%;
+}
+
+main {
+  position: absolute;
+  margin : 2%;
+  top:10%;
+  left : 5%;
+  right : 5%;
+  
+  padding: 10px;
+  display : flex;
+  flex-direction: column;
+  justify-content : center;
+  align-items: center;
+  flex-wrap :wrap;
+  
+  /* background-color: greenyellow; */
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#content {
+  text-align :center;
+  padding :10px;
+}
+
+.flexDiv {
+  display : flex;
+  flex-direction: row;
+  justify-content : space-around;
+  align-items: center;
+  flex-wrap :wrap;
+  
+  margin : 10px;
+  background-color: rgb(68, 0, 255);;
+  background: rgba(255, 255, 255, 0.2);
+
+  transition: background-color 0.5s ,color 0.5s ease-in-out;
+}
+
+.flexDiv:hover {
+    background-color: whitesmoke;
+    color: #01579B;
+}
+
