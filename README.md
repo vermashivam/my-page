@@ -1,3 +1,5 @@
-# shivam-verma
+# My Page
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/shivam-verma)
+[Open Page ⚡️](https://vermashivam.github.io/my-page/)
+
+[Open on StackBlitz ](https://itsme.stackblitz.io/)
